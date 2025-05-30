@@ -1,0 +1,68 @@
+/* Base Pane Styling */
+#left-pane {
+    width: 40%;
+    background:rgb(5, 10, 41);
+    border: rgb(246, 118, 20);
+}
+
+#right-pane {
+    background:rgb(17, 38, 77);
+    border: rgb(20, 224, 159);
+    
+}
+
+/* Task Widget Styling */
+Task {
+    background:rgb(169, 178, 116);
+    height: 3;
+    border: solid #3b4252;
+    color:rgb(0, 0, 0);
+    padding: 0 1;
+    content-align: left middle;
+}
+
+Task:focus {
+    background: $accent;
+    color: $text;
+}
+
+Task:hover {
+    background: rgba(195, 225, 23, 0.86);
+}
+
+.success{
+    background: rgba(135, 213, 147, 0.86);
+}
+
+.running{
+    background: rgba(172, 205, 224, 0.86);
+}
+
+.failed{
+    background: rgba(225, 182, 143, 0.86);
+}
+
+.waiting{
+    background: rgba(166, 160, 160, 0.86);
+}
+
+/* View Pane or Label Area */
+#view-pane {
+    background: #3b4252;
+    color: #d8dee9;
+    padding: 1;
+    content-align: center middle;
+    border: solid #5e81ac;
+}
+
+/* Label styling */
+Label {
+    align: center middle;
+    color: #a3be8c;
+}
+
+Footer {
+    background: rgb(206, 99, 99);
+}
+
+
